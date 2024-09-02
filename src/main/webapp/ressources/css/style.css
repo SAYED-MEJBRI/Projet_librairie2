@@ -21,8 +21,7 @@ background-color: red;
 }
 
 .navbar {
-    display:flex;
-   justify-content: space around;
+    /* width: 12px; */
     padding: 30px;
     height: 75px;
     margin: auto;

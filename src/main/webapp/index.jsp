@@ -1,16 +1,13 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Bibliothèque 
-</title>
+        <title>Librairie</title>
        <link rel="stylesheet" href="./ressources/css/style.css">
     </head>
     <body>
@@ -18,35 +15,35 @@
         <div class="main">
             <div class="navbar">
                 <div class="icon">
-                    <h2 class="logo">La Bibliothèque</h2>
+                    <h2 class="logo">Librairie</h2>
                 </div>
                 
                 <div class="menu">
                     <ul class="menuderoulant">
-                        <li><a href="./js/apropos.jsp">A Propos</a></li>
+                        <li><a href="../index.html">A Propos</a></li>
                         <li><a href="#">livre</a>
                             <ul class="sousmenu">
-                                <li><a href="AfficherLivre">VOIR & EDITER</a></li>
+                                <li><a href="AfficherLivre">VOIR</a></li>
                                 <li><a href="AjoutLivre1">AJOUTER</a></li>
                            
                             </ul>
                         </li>
                         <li><a href="#">Fournisseur</a>
                             <ul class="sousmenu">
-                                <li><a href="AfficherFournisseur">VOIR & EDITER</a></li>
+                                <li><a href="AfficherFournisseur">VOIR</a></li>
                                 <li><a href="AjouterFournisseur">AJOUTER</a></li>
                               
                             </ul>
                         </li>
                         <li><a href="#">Commande</a>
                             <ul class="sousmenu">
-                                <li><a href="AfficherCommande">VOIR & EDITER</a></li>
+                                <li><a href="AfficherCommande">VOIR</a></li>
                                 <li><a href="AjouterCommande">AJOUTER</a></li>
                              
                             </ul>
                         </li>
                         
-                        <li><a href="./js/contact.jsp">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
